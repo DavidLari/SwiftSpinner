@@ -94,6 +94,12 @@ In case you want to change an arbitrary aspect of the text on screen access dire
     SwiftSpinner.sharedInstance.titleLabel
     SwiftSpinner.sharedInstance.subtitleLabel
 ```
+To change the colors of the circles, you may set the respective color properties:
+
+```swift
+    SwiftSpinner.sharedInstance.outerColor = .blue
+    SwiftSpinner.sharedInstance.innerColor = .red
+```
 
 You can show a spinner only if certain amount of time has passed (e.g. if you are downloading a file - show a message only if the operation takes longer than certain amount of time):
 
